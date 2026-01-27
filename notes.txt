@@ -1,0 +1,8 @@
+
+Duplicates
+- All duplicates were tagged with "_dup" on both the raw and new datasets. But we can't discern whether the "_dup" tags on the same Student_ID correspond to the same duplicate between the datasets.
+- For example, say Student_ID 1 is duplicated. The first occurrence is "1A" and the second occurrence is "1B." In the raw dataset, we tag 1B with "_dup." But in the new dataset, 1B might appear before 1A. In that case, 1A would be tagged with "_dup."
+
+Filtering
+- After joining raw and new, several variables with the same name were tagged with "_x" and "_y." For the "Fall_20<XX>_HOURS_EARNED" variables, once confirming that the "_x" and "_y" variables are not the same, I selected the "_x" variable to focus on, which is the column from the raw dataset.
+- The same decision was made for "FTIC_Cohort."
