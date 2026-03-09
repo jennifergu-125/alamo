@@ -6,3 +6,9 @@ Duplicates
 Filtering
 - After joining raw and new, several variables with the same name were tagged with "_x" and "_y." For the "Fall_20<XX>_HOURS_EARNED" variables, once confirming that the "_x" and "_y" variables are not the same, I selected the "_x" variable to focus on, which is the column from the raw dataset.
 - The same decision was made for "FTIC_Cohort."
+
+PROPENSITY SCORE MATCHING NOTES
+
+Cohort 1 / 2020
+- GPA (4 & 5) has negative coefficients in several scenarios.
+* Academically eligible yields the largest results.
